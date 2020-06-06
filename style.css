@@ -1,0 +1,190 @@
+.topline1, .topline2, topline3 {
+    font-weight: bold !important;
+    color: white !important;
+    display: inline !important;
+    align-content: flex-end !important;
+}
+.sociallinks{
+    display: flex !important;
+}
+.navbar99{
+    background-color: #dddddd !important;
+    justify-content: space-evenly !important;
+}
+.navbar-text{
+    color: black !important;
+}
+.dropdown{
+    display: inline-block !important;
+    text-align: justify !important;
+}
+.sclink{
+    text-align: right !important;
+}
+.menufinal{
+    display: inline !important;
+    width: 1080px !important;
+}
+.2ndline{
+    display: flex !important;
+}
+
+.card1 {
+    display: flex;
+    width: 300px;
+    height: 100px;
+    background-color: #fff;
+    box-shadow: 2px 4px 5px gray;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+
+.card2 {
+    display: flex;
+    width: 300px;
+    height: 100px;
+    background-color: #fff;
+    box-shadow: 2px 4px 5px gray;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.card3 {
+    display: flex;
+    width: 300px;
+    height: 100px;
+    background-color: #fff;
+    box-shadow: 2px 4px 5px gray;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+.maincard {
+
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.shp, .qua, .sup {
+    margin-right: 10px;
+}
+
+
+}
+@media screen and (min-width: 600px) {
+    .card1, .card2, .card3, .menufinal, .newarrival {
+        width: 100%;
+  }
+  
+  .newarrival {
+    margin-top: 300px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .card {
+     height: 50px !important;
+     width: 50px !important;
+  }
+
+  .btn-primary {
+      width: 100% ;
+  }
+
+.menu-dropdown {
+    list-style: none !important;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+.menu, .menu ul, .menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+.menu{
+    width: 1080px;
+    margin: 50px auto;
+    background-color: white;
+    border-radius: 6px;
+    font-size: small;
+}
+.menu:before,
+.menu:after{
+    content: ;
+    display: table;
+}
+.menu:after{
+    clear: both;
+}
+.menu li{
+    float: left;
+    box-shadow: 1px 0 0 white;
+    position: relative;
+ 
+}
+.menu a{
+    float: left;
+    padding: 20px 30px;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: black;
+ 
+}
+.menu li:hover > a{
+    color: black;
+    background-color: white;
+}
+.menu ul{
+    margin: 20px 0 0 0;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 46px;
+    z-index: 1;
+    background-color: white;
+    border-radius: 3px;
+    transition: all .3s ease-in-out;
+}
+.menu li:hover>ul{
+    opacity: 1;
+    visibility: visible;
+    margin: 0;
+}
+.menu ul ul{
+    top: 0;
+    left: 150px;
+    margin: 0 0 0 20px;
+}
+.menu ul li{
+    float: none;
+    display: block;
+    border: 0;
+    box-shadow: 0 1px 0 black, 0 2px 0 black;
+}
+.menu ul li:last-child{
+    box-shadow: none;
+}
+.menu ul a{
+    padding: 10px;
+    width: 130px;
+    display: block;
+    white-space: nowrap;
+    float: none;
+    text-transform: uppercase;
+}
+.menu ul a:hover{
+    background-color: blue;
+    color: white;
+}
